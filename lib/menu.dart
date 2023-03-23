@@ -1431,7 +1431,7 @@ class _MenuState extends State<Menu> {
                                   style: const TextStyle(
                                     fontFamily: 'PlusJakartaSans-SemiBold',
                                     fontWeight: FontWeight.bold,
-                                    fontSize: 18,
+                                    fontSize: 16,
                                     color: Colors.white,
                                   ),
                                 ),
