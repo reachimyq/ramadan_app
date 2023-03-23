@@ -21,12 +21,12 @@ class _MenuState extends State<Menu> {
   int fastDay = 0;
 
   String itracker =
-      "Today the imam will be reading Surah Baqarah verse 1 onwards\n\nIt is permissible to hold a mushaf during the prayer if you wish";
+      "Today the imam will be reading Surah Baqarah verse 75 onwards\n\nIt is permissible to hold a mushaf during the prayer if you wish";
 
   String taraweehTime = "21:30";
   String qiyaamTime = "-";
 
-  double fundraisingTotal = 0;
+  double fundraisingTotal = 300;
   double activeFundraisingTotal = 0;
 
   Uri _url = Uri.parse('https://flutter.dev');
@@ -34,7 +34,7 @@ class _MenuState extends State<Menu> {
   String collectionLink = "https://norburymuslimcentre.com/donate";
   String collectionVid = "https://youtu.be/_-VqoT0nq4k";
   String zakatLink =
-      "https://lmsn.notion.site/London-Muslim-Support-Network-1e1e5de6382a4f30a6b61fc4fd55adc0";
+      "https://www.paypal.com/donate/?hosted_button_id=CVZ2HKQQ7DAWJ";
 
   List<List<String>> ptimes = [
     [
@@ -1427,11 +1427,11 @@ class _MenuState extends State<Menu> {
                                     MediaQuery.of(context).size.height * 0.021,
                                 child: AutoSizeText(
                                   '$fastDay',
-                                  minFontSize: 12,
+                                  minFontSize: 14,
                                   style: const TextStyle(
                                     fontFamily: 'PlusJakartaSans-SemiBold',
                                     fontWeight: FontWeight.bold,
-                                    fontSize: 14,
+                                    fontSize: 18,
                                     color: Colors.white,
                                   ),
                                 ),
